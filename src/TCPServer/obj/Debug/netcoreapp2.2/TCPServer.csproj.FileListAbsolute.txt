@@ -1,0 +1,9 @@
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\bin\Debug\netcoreapp2.2\TCPServer.deps.json
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\bin\Debug\netcoreapp2.2\TCPServer.runtimeconfig.json
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\bin\Debug\netcoreapp2.2\TCPServer.runtimeconfig.dev.json
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\bin\Debug\netcoreapp2.2\TCPServer.dll
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\bin\Debug\netcoreapp2.2\TCPServer.pdb
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.AssemblyInfoInputs.cache
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.AssemblyInfo.cs
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.dll
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.pdb
