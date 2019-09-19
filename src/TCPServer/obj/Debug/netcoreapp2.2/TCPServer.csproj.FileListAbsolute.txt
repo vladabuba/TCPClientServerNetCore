@@ -7,3 +7,4 @@ C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\obj\Debug\netcoreapp2
 C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.AssemblyInfo.cs
 C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.dll
 C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.pdb
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.csproj.CoreCompileInputs.cache

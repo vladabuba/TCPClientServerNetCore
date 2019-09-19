@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
@@ -60,12 +61,29 @@ namespace TCPServer
                 {
                     try
                     {
+                        Console.WriteLine(" >> IP address: " +((IPEndPoint)clientSocket.Client.RemoteEndPoint).Address.ToString());
+
+                        var watch = System.Diagnostics.Stopwatch.StartNew();
+
                         requestCount = requestCount + 1;
                         NetworkStream networkStream = clientSocket.GetStream();
-                        networkStream.Read(bytesFrom, 0, (int)clientSocket.ReceiveBufferSize);
-                        dataFromClient = System.Text.Encoding.ASCII.GetString(bytesFrom);
-                        dataFromClient = dataFromClient.Substring(0, dataFromClient.IndexOf("$"));
-                        Console.WriteLine(" >> " + "From client-" + clNo + dataFromClient);
+
+                        byte[] lengthBytes = new byte[4];
+                        int read = networkStream.Read(lengthBytes, 0, 4);
+                        // read contains the number of read bytes, so we can check it if we want
+                        int length = BitConverter.ToInt32(lengthBytes);
+                        byte[] buf = new byte[length];
+                        networkStream.Read(buf, 0, buf.Length);
+
+                        Console.WriteLine(" >> " + "From client-" + clNo + " filesize " + buf.Length);
+
+                        System.IO.File.WriteAllBytes(@"c:\temp\src\myfile.bin", buf);
+
+                        //networkStream.Read(bytesFrom, 0, (int)clientSocket.ReceiveBufferSize);
+                        //dataFromClient = System.Text.Encoding.ASCII.GetString(bytesFrom);
+                        //dataFromClient = dataFromClient.Substring(0, dataFromClient.IndexOf("$"));
+
+                        //Console.WriteLine(" >> " + "From client-" + clNo + dataFromClient);
 
                         rCount = Convert.ToString(requestCount);
                         serverResponse = "Server to clinet(" + clNo + ") " + rCount;
@@ -73,6 +91,11 @@ namespace TCPServer
                         networkStream.Write(sendBytes, 0, sendBytes.Length);
                         networkStream.Flush();
                         Console.WriteLine(" >> " + serverResponse);
+                        // the code that you want to measure comes here
+                        watch.Stop();
+                        var elapsedMs = watch.ElapsedMilliseconds;
+                        Console.WriteLine(" Execution time >> " + elapsedMs.ToString());
+                        workOK = false;
                     }
                     catch (Exception ex)
                     {

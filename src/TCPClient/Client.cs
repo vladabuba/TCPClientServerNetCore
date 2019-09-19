@@ -19,15 +19,25 @@ namespace TCPClient
             Console.WriteLine("Client Socket Program - Server Connected ...");
         }
 
-        public void SendData()
+        public void SendData(string filename)
         {
-            NetworkStream serverStream = clientSocket.GetStream();
-            byte[] outStream = System.Text.Encoding.ASCII.GetBytes("Message from Client$");
-            serverStream.Write(outStream, 0, outStream.Length);
-            serverStream.Flush();
+            //string filename = @"C:\temp\torrent\files\Lynda Python Essential Training\01. Introduction\01_01-Welcome.mp4";
 
-            byte[] inStream = new byte[clientSocket.ReceiveBufferSize];
-            serverStream.Read(inStream, 0, (int)clientSocket.ReceiveBufferSize);
+            byte[] fileBytes = System.IO.File.ReadAllBytes(filename);
+
+            Console.WriteLine(fileBytes.Length);
+
+            //return;
+
+            NetworkStream serverStream = clientSocket.GetStream();
+            //byte[] outStream = System.Text.Encoding.ASCII.GetBytes("Message from Client$");
+            //serverStream.Write(outStream, 0, outStream.Length);
+            serverStream.Write(BitConverter.GetBytes(fileBytes.Length), 0, 4);
+            serverStream.Write(fileBytes, 0, fileBytes.Length);
+            //serverStream.Flush();
+
+            byte[] inStream = new byte[1024];
+            serverStream.Read(inStream, 0, 1024);
             string returndata = System.Text.Encoding.ASCII.GetString(inStream);
             msg("Data from Server : " + returndata);
         }
