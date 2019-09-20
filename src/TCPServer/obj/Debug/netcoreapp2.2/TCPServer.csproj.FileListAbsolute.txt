@@ -8,3 +8,7 @@ C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\obj\Debug\netcoreapp2
 C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.dll
 C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.pdb
 C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.csproj.CoreCompileInputs.cache
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.csprojAssemblyReference.cache
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\bin\Debug\netcoreapp2.2\Logger.dll
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\bin\Debug\netcoreapp2.2\Logger.pdb
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPServer\obj\Debug\netcoreapp2.2\TCPServer.csproj.CopyComplete

@@ -1,0 +1,8 @@
+C:\Projects\test\core\TCPClientServerNetCore\src\Logger\obj\Debug\netcoreapp3.0\Logger.csproj.CoreCompileInputs.cache
+C:\Projects\test\core\TCPClientServerNetCore\src\Logger\obj\Debug\netcoreapp3.0\Logger.AssemblyInfoInputs.cache
+C:\Projects\test\core\TCPClientServerNetCore\src\Logger\obj\Debug\netcoreapp3.0\Logger.AssemblyInfo.cs
+C:\Projects\test\core\TCPClientServerNetCore\src\Logger\bin\Debug\netcoreapp3.0\Logger.deps.json
+C:\Projects\test\core\TCPClientServerNetCore\src\Logger\bin\Debug\netcoreapp3.0\Logger.dll
+C:\Projects\test\core\TCPClientServerNetCore\src\Logger\bin\Debug\netcoreapp3.0\Logger.pdb
+C:\Projects\test\core\TCPClientServerNetCore\src\Logger\obj\Debug\netcoreapp3.0\Logger.dll
+C:\Projects\test\core\TCPClientServerNetCore\src\Logger\obj\Debug\netcoreapp3.0\Logger.pdb
