@@ -1,0 +1,11 @@
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPClient\bin\Debug\netcoreapp3.1\TCPClient.exe
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPClient\bin\Debug\netcoreapp3.1\TCPClient.deps.json
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPClient\bin\Debug\netcoreapp3.1\TCPClient.runtimeconfig.json
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPClient\bin\Debug\netcoreapp3.1\TCPClient.runtimeconfig.dev.json
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPClient\bin\Debug\netcoreapp3.1\TCPClient.dll
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPClient\bin\Debug\netcoreapp3.1\TCPClient.pdb
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPClient\obj\Debug\netcoreapp3.1\TCPClient.csprojAssemblyReference.cache
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPClient\obj\Debug\netcoreapp3.1\TCPClient.AssemblyInfoInputs.cache
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPClient\obj\Debug\netcoreapp3.1\TCPClient.AssemblyInfo.cs
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPClient\obj\Debug\netcoreapp3.1\TCPClient.dll
+C:\Projects\test\core\TCPClientServerNetCore\src\TCPClient\obj\Debug\netcoreapp3.1\TCPClient.pdb

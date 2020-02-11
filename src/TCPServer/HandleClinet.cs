@@ -59,7 +59,8 @@ namespace TCPServer
                     Console.WriteLine(" >> " + "Got stream from client-" + clNo + " filesize " + buf.Length);
                     log.AddToLog("S", "Got stream from client-" + clNo + " filesize " + buf.Length);
 
-                    System.IO.File.WriteAllBytes(@"c:\temp\src\myfile.bin", buf);
+                    //System.IO.File.WriteAllBytes(@"c:\temp\src\myfile.bin", buf);
+                    System.IO.File.WriteAllBytes(@"myfile.bin", buf);
 
                     Console.WriteLine(" >> File written . ");
                     log.AddToLog("S", "File written.");
