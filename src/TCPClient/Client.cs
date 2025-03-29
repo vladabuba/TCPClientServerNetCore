@@ -15,7 +15,7 @@ namespace TCPClient
         public Client()
         {
             msg("Client Started >>>");
-            clientSocket.Connect("192.168.0.18", 9999);
+            clientSocket.Connect("192.168.0.195", 9999);
             Console.WriteLine("Client Socket Program - Server Connected ...");
         }
 

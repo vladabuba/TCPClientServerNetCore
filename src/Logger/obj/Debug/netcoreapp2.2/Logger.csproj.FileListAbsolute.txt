@@ -1,8 +1,0 @@
-C:\Projects\test\core\TCPClientServerNetCore\src\Logger\bin\Debug\netcoreapp2.2\Logger.deps.json
-C:\Projects\test\core\TCPClientServerNetCore\src\Logger\bin\Debug\netcoreapp2.2\Logger.dll
-C:\Projects\test\core\TCPClientServerNetCore\src\Logger\bin\Debug\netcoreapp2.2\Logger.pdb
-C:\Projects\test\core\TCPClientServerNetCore\src\Logger\obj\Debug\netcoreapp2.2\Logger.csproj.CoreCompileInputs.cache
-C:\Projects\test\core\TCPClientServerNetCore\src\Logger\obj\Debug\netcoreapp2.2\Logger.AssemblyInfoInputs.cache
-C:\Projects\test\core\TCPClientServerNetCore\src\Logger\obj\Debug\netcoreapp2.2\Logger.AssemblyInfo.cs
-C:\Projects\test\core\TCPClientServerNetCore\src\Logger\obj\Debug\netcoreapp2.2\Logger.dll
-C:\Projects\test\core\TCPClientServerNetCore\src\Logger\obj\Debug\netcoreapp2.2\Logger.pdb
